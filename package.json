@@ -1,0 +1,24 @@
+{
+  "name": "fridge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/cli": "^2.4.1",
+    "@quasar/extras": "^1.16.16",
+    "quasar": "^2.17.7",
+    "vue": "^3.5.13",
+    "vue-qrcode-reader": "^5.7.0"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.9.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass-embedded": "^1.80.2",
+    "vite": "^6.0.11"
+  }
+}
